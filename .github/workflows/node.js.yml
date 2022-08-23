@@ -17,13 +17,13 @@ jobs:
       - name: Build the code
         run: |
             echo "BUild the Code"
-            sleep: 2m
+            sleep 2m
             echo "Finish Build"
       
       - name: Test the code
         run: |
             echo "Test the code"
-            sleep: 2m
+            sleep 2m
             echo "Finish Test"
       
   
